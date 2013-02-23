@@ -5,8 +5,14 @@
     <title>Stopwattch</title> 
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
-
-  </head> 
+  	<style type="text/css">
+  	      #graph {
+  	        width : 600px;
+  	        height: 384px;
+  	        margin: 8px auto;
+  	      }
+  	    </style>
+  	</head> 
   <body> 
 
     <div data-role="page">
@@ -16,7 +22,7 @@
       </div>
 
       <div data-role="content"> 
-        <div id="graph" style="width:400px;height:200px"></div>
+        <div id="graph"></div>
       </div>
 
     </div>
